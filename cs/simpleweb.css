@@ -1,0 +1,155 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #92e0f8;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: rgb(255, 136, 0);
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+  }
+  nav li {
+    float: left;
+    overflow: hidden;
+    list-style-type: none;
+
+  }
+  nav a{
+    color: black;
+    background-color:yellow;
+    display: inline-block;
+    padding: 10px 50px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(241, 239, 105);
+    border-radius: 30px;
+  }
+  
+  section {
+    margin: 40px 20px;
+  }
+  
+  section h2 {
+    color: #333;
+  }
+  
+  footer {
+    background-color: #333;
+    color: hwb(240 99% 0%);
+    padding: 20px;
+    text-align: center;
+  }
+  footer a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+  }
+  .footer-section:hover{
+    text-decoration: underline;
+  }
+  .ab{
+    background-color: aquamarine;
+    padding:20px 0px 10px 35px;
+  }
+  .abc{
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  table td , th{
+    padding: 10px;
+  }
+  .abct{
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  table th{
+    color: blue;
+    background-color: #a0fa94;
+  }
+  ol{
+    list-style-type: decimal;
+    padding-left: 40px;
+  }
+  h4{
+    margin-left: 2%;
+  }
+  .sign1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+  .sign2{
+    text-align: center;
+    background-color:white;
+    color: black;
+    padding: 10px 50px 20px 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15%;
+    border-radius: 10px;
+  }
+  .sign2 h1{
+    padding: 10px;
+  }
+  form{
+    padding: 20px;
+  }
+  span{
+    color: red;
+  }
+  form label{
+    display: flex;
+    justify-content: left;
+    padding: 10px 0px;
+  }
+  form input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 2% 0;
+    background-color: aliceblue;
+  }
+  .box{
+    padding: 10px 5px;
+    border-radius: 5%;
+    border-color: black;
+    background-color: aliceblue;
+  }
+  .box:hover{
+    text-decoration: underline;
+    background-color: rgb(197, 233, 245);
+    border-radius: 10px;
+  }
+  .s3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 10%;
+
+  }
+  .f1{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(230, 234, 175);
+  }
+  .f2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
